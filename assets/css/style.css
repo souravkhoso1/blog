@@ -404,6 +404,76 @@ img { max-width: 100%; display: block; }
 .site-footer a { color: var(--text-muted); }
 .site-footer a:hover { color: var(--text); }
 
+/* ── Post images ────────────────────────────────────────── */
+.post-body figure {
+  margin: 2.5rem 0;
+}
+
+.post-body figure img {
+  width: 100%;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  display: block;
+}
+
+.post-body figcaption {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 0.6rem;
+  font-family: var(--font-mono);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* ── Series nav ─────────────────────────────────────────── */
+.series-nav {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent-1);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.series-nav-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-1);
+  margin-bottom: 0.75rem;
+}
+
+.series-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.series-nav-list li {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.series-nav-list li.current {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.series-nav-list li.current::before {
+  content: "→ ";
+  color: var(--accent-1);
+}
+
+.series-nav-list a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.series-nav-list a:hover { color: var(--text); }
+
 /* ── Syntax highlighting (Rouge/Monokai-ish) ─────────────── */
 .highlight .c  { color: #6272a4; font-style: italic }
 .highlight .k  { color: #ff79c6 }

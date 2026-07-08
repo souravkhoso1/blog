@@ -6,6 +6,7 @@ url: "https://souravkhoso1.github.io"
 baseurl: "/blog"
 
 # Build settings
+timezone: America/Edmonton
 markdown: kramdown
 highlighter: rouge
 permalink: /posts/:year/:month/:day/:title/

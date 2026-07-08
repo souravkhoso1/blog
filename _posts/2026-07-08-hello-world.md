@@ -4,6 +4,7 @@ title: "Hello, World"
 description: "First post — a quick note on why I started this blog and what you can expect here."
 date: 2026-07-08 12:00:00 +0530
 tags: [meta, writing]
+published: false
 ---
 
 Every blog starts somewhere. This is mine.
