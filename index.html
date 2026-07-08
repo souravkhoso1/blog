@@ -1,0 +1,43 @@
+---
+layout: default
+title: Home
+---
+<div class="container">
+  <section class="hero">
+    <p class="hero-eyebrow">Personal Blog</p>
+    <h1>Hi, I'm <span class="gradient-text">Sourav</span>.<br>I write about things<br>that matter to me.</h1>
+    <p>Code, ideas, and whatever I'm figuring out. No noise.</p>
+  </section>
+
+  <section class="posts-section">
+    <h2>All Posts</h2>
+    {% if site.posts.size > 0 %}
+      <ul class="post-list">
+        {% for post in site.posts %}
+        <li class="post-card">
+          <time class="post-card-date" datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </time>
+          <h3 class="post-card-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+          {% if post.description %}
+            <p class="post-card-excerpt">{{ post.description }}</p>
+          {% elsif post.excerpt %}
+            <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          {% endif %}
+          {% if post.tags.size > 0 %}
+            <div class="tag-list">
+              {% for tag in post.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p class="no-posts">No posts yet — check back soon.</p>
+    {% endif %}
+  </section>
+</div>

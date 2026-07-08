@@ -1,0 +1,32 @@
+title: "Sourav's Blog"
+description: "Thoughts, code, and things I find interesting."
+author: "Sourav Khoso"
+email: souravkhoso1@gmail.com
+url: "https://souravkhoso1.github.io"
+baseurl: "/blog"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /posts/:year/:month/:day/:title/
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Plugins (all supported by GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Pagination (optional - can enable later)
+# paginate: 5
+# paginate_path: "/page/:num/"
