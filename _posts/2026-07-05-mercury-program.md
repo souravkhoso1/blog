@@ -2,7 +2,7 @@
 layout: post
 title: "Project Mercury: America's First Step Into Space"
 description: "How seven test pilots became the Original Seven, and America raced to prove humans could survive in space."
-date: 2026-07-08
+date: 2026-07-05
 tags: [mercury, nasa, space-history]
 ---
 
@@ -82,4 +82,4 @@ Mercury didn't send anyone to the Moon. It didn't even get close. But it establi
 
 ---
 
-*Next in the series: [Project Gemini — Learning to Fly]({{ '/posts/2026/07/09/gemini-program/' | relative_url }}), where NASA learned to rendezvous, dock, and walk in space.*
+*Next in the series: [Project Gemini — Learning to Fly]({{ '/posts/2026/07/06/gemini-program/' | relative_url }}), where NASA learned to rendezvous, dock, and walk in space.*

@@ -2,7 +2,7 @@
 layout: post
 title: "Artemis: Going Back to the Moon — This Time to Stay"
 description: "NASA's Artemis program aims to return humans to the Moon for the first time in over 50 years, and build the foundation for a journey to Mars."
-date: 2026-07-11
+date: 2026-07-08
 tags: [artemis, nasa, moon, future]
 ---
 
@@ -74,4 +74,4 @@ Fifty years is a long gap. But the Moon hasn't gone anywhere, and neither has th
 
 ---
 
-*This is Part 4 of the America's Space Exploration series. Start from the beginning with [Project Mercury]({{ '/posts/2026/07/08/mercury-program/' | relative_url }}).*
+*This is Part 4 of the America's Space Exploration series. Start from the beginning with [Project Mercury]({{ '/posts/2026/07/05/mercury-program/' | relative_url }}).*

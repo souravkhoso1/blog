@@ -2,7 +2,7 @@
 layout: post
 title: "Project Gemini: Learning to Fly Before You Can Land"
 description: "Between Mercury and Apollo, ten Gemini missions answered the hardest questions about surviving a journey to the Moon."
-date: 2026-07-09
+date: 2026-07-06
 tags: [gemini, nasa, space-history]
 ---
 
@@ -75,4 +75,4 @@ Gemini is often called the forgotten middle child of the space program — overs
 
 ---
 
-*Next in the series: [Project Apollo — One Giant Leap]({{ '/posts/2026/07/10/apollo-program/' | relative_url }}), where everything Gemini built came together.*
+*Next in the series: [Project Apollo — One Giant Leap]({{ '/posts/2026/07/07/apollo-program/' | relative_url }}), where everything Gemini built came together.*

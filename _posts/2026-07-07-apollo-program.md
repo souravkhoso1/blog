@@ -2,7 +2,7 @@
 layout: post
 title: "Project Apollo: One Giant Leap"
 description: "The story of the program that landed humans on the Moon — from tragedy to triumph, from Earth to the Sea of Tranquility."
-date: 2026-07-10
+date: 2026-07-07
 tags: [apollo, nasa, moon, space-history]
 ---
 
@@ -106,4 +106,4 @@ What Apollo left behind wasn't hardware. It was proof: that when humans commit f
 
 ---
 
-*Next in the series: [Artemis — Return to the Moon]({{ '/posts/2026/07/11/artemis-program/' | relative_url }}), where NASA aims to go back — and this time, to stay.*
+*Next in the series: [Artemis — Return to the Moon]({{ '/posts/2026/07/08/artemis-program/' | relative_url }}), where NASA aims to go back — and this time, to stay.*
