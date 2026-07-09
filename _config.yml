@@ -3,7 +3,7 @@ description: "Thoughts, code, and things I find interesting."
 author: "Sourav Khoso"
 email: souravkhoso1@gmail.com
 url: "https://souravkhoso1.com"
-baseurl: "/blog"
+baseurl: "/"
 
 # Build settings
 timezone: America/Edmonton
