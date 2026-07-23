@@ -4,6 +4,7 @@ author: "Sourav Khoso"
 email: souravkhoso1@gmail.com
 url: "https://souravkhoso1.com"
 baseurl: "/"
+disqus_shortname: "souravkhoso1-com"
 
 # Build settings
 timezone: America/Edmonton
